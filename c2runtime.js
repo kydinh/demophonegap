@@ -14167,6 +14167,18 @@ cr.getProjectModel = function() { return [
 	null,
 	[
 	[
+		cr.plugins_.Keyboard,
+		true,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	]
+,	[
 		cr.plugins_.Sprite,
 		false,
 		true,
@@ -14180,18 +14192,6 @@ cr.getProjectModel = function() { return [
 	]
 ,	[
 		cr.plugins_.Touch,
-		true,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false
-	]
-,	[
-		cr.plugins_.Keyboard,
 		true,
 		false,
 		false,
@@ -14453,6 +14453,123 @@ cr.getProjectModel = function() { return [
 		[]
 		,[1]
 	]
+,	[
+		"t7",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			192688268914414,
+			[
+				["images/rightarrow-sheet0.png", 14737, 0, 0, 256, 256, 1, 0.5, 0.5,[],[-0.328125,-0.328125,0,-0.289063,0.375,0,0,0.292969,-0.328125,0.328125],0]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		7514288481792648,
+		[]
+	]
+,	[
+		"t8",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			314094816706862,
+			[
+				["images/leftarrow-sheet0.png", 14750, 0, 0, 256, 256, 1, 0.5, 0.5,[],[0.328125,0.328125,0,0.292969,-0.375,0,0,-0.289063,0.328125,-0.328125],0]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		8843562281480956,
+		[]
+	]
+,	[
+		"t9",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			2832024262543972,
+			[
+				["images/buttona-sheet0.png", 11456, 0, 0, 300, 300, 1, 0.5, 0.5,[],[-0.353333,-0.353333,0,-0.5,0.353333,-0.353333,0.5,0,0.353333,0.353333,0,0.5,-0.353333,0.353333,-0.5,0],0],
+				["images/buttona-sheet1.png", 11549, 0, 0, 300, 300, 1, 0.5, 0.5,[],[-0.353333,-0.353333,0,-0.5,0.353333,-0.353333,0.5,0,0.353333,0.353333,0,0.5,-0.353333,0.353333,-0.5,0],0]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		6536197704313753,
+		[]
+	]
+,	[
+		"t10",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			8818310038226536,
+			[
+				["images/buttonb-sheet0.png", 11549, 0, 0, 300, 300, 1, 0.5, 0.5,[],[-0.353333,-0.353333,0,-0.5,0.353333,-0.353333,0.5,0,0.353333,0.353333,0,0.5,-0.353333,0.353333,-0.5,0],0]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		7320811218960944,
+		[]
+	]
 	],
 	[
 	],
@@ -14460,7 +14577,7 @@ cr.getProjectModel = function() { return [
 	[
 		"Layout 1",
 		640,
-		1024,
+		800,
 		false,
 		"Event sheet 1",
 		5426523481741616,
@@ -14481,7 +14598,7 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[123, 320, 0, 250, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[123, 300, 0, 250, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				0,
 				0,
 				[
@@ -14515,7 +14632,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[492, 250, 0, 144, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[482, 220, 0, 144, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				0,
 				2,
 				[
@@ -14549,7 +14666,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[0, 510, 0, 6, 1019, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[0, 399, 0, 6, 801, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				2,
 				4,
 				[
@@ -14566,7 +14683,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[642, 509.5, 0, 6, 1018, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[642, 400, 0, 6, 803, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				2,
 				5,
 				[
@@ -14624,41 +14741,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[148, 1007, 0, 300, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				0,
-				9,
-				[
-				],
-				[
-				[
-				]
-				],
-				[
-					0,
-					"Default",
-					0,
-					1
-				]
-			]
-,			[
-				[544, 870, 0, 200, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				0,
-				10,
-				[
-				],
-				[
-				[
-				]
-				],
-				[
-					0,
-					"Default",
-					0,
-					1
-				]
-			]
-,			[
-				[257, 729, 0, 200, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[365, 649, 0, 200, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				0,
 				12,
 				[
@@ -14675,7 +14758,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[71.5, 589, 0, 145, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[71.5, 559, 0, 145, 35, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				0,
 				11,
 				[
@@ -14692,7 +14775,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[-83, 764, 0, 39.95, 39.95, 0, 2.2194e-005, 1, 0.5, 0.5, 0, 0, []],
+				[-83, 737, 0, 39.95, 39.95, 0, 2.2194e-005, 1, 0.5, 0.5, 0, 0, []],
 				5,
 				14,
 				[
@@ -14707,6 +14790,66 @@ cr.getProjectModel = function() { return [
 				],
 				[
 				]
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[168, 740, 0, 50, 50, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				7,
+				9,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[80, 740, 0, 50, 50, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				8,
+				10,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[456, 740, 0, 60, 60, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				9,
+				15,
+				[
+				],
+				[
+				],
+				[
+					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[559, 740, 0, 60, 60, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				10,
+				16,
+				[
+				],
+				[
 				],
 				[
 					0,
@@ -15499,7 +15642,7 @@ false,false,6017759698398954
 				,[
 				[
 					4,
-					3
+					9
 				]
 				]
 			]
@@ -15533,13 +15676,213 @@ false,false,6017759698398954
 			]
 			]
 		]
+,		[
+			0,
+			null,
+			false,
+			5036077898341851,
+			[
+			[
+				6,
+				cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+				null,
+				1,
+				false,
+				false,
+				false,
+				8243913212149204
+				,[
+				[
+					4,
+					10
+				]
+				]
+			]
+			],
+			[
+			[
+				4,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				3851699351024253
+				,[
+				[
+					3,
+					2
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			6758219246682916,
+			[
+			[
+				6,
+				cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+				null,
+				0,
+				false,
+				false,
+				false,
+				8795313391250554
+				,[
+				[
+					4,
+					8
+				]
+				]
+			]
+			],
+			[
+			[
+				4,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				4864305697314992
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				179195120478731
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				4,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				4679912560150328
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				-1,
+				cr.system_object.prototype.acts.SetVar,
+				null,
+				573329470704825
+				,[
+				[
+					11,
+					"DirectionBullet"
+				]
+,				[
+					7,
+					[
+						0,
+						1
+					]
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			4000105721876526,
+			[
+			[
+				6,
+				cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+				null,
+				0,
+				false,
+				false,
+				false,
+				9591849653751765
+				,[
+				[
+					4,
+					7
+				]
+				]
+			]
+			],
+			[
+			[
+				4,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				2187093826633923
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				619517060396092
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				4,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				3123439249031671
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				-1,
+				cr.system_object.prototype.acts.SetVar,
+				null,
+				8245134064225597
+				,[
+				[
+					11,
+					"DirectionBullet"
+				]
+,				[
+					7,
+					[
+						0,
+						0
+					]
+				]
+				]
+			]
+			]
+		]
 		]
 	]
 	],
 	"media/",
 	false,
 	640,
-	1024,
+	800,
 	3,
 	true,
 	true,
@@ -15549,7 +15892,7 @@ false,false,6017759698398954
 	false,
 	0,
 	false,
-	15,
+	17,
 	false,
 	[
 	]
