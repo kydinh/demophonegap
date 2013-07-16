@@ -14799,7 +14799,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[168, 740, 0, 50, 50, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[168, 871, 0, 80, 80, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				7,
 				9,
 				[
@@ -14814,7 +14814,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[80, 740, 0, 50, 50, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[80, 871, 0, 80, 80, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				8,
 				10,
 				[
@@ -14829,7 +14829,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[456, 740, 0, 60, 60, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[447, 871, 0, 80, 80, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				9,
 				15,
 				[
@@ -14844,7 +14844,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[559, 740, 0, 60, 60, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[559, 871, 0, 80, 80, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				10,
 				16,
 				[
@@ -15670,6 +15670,112 @@ false,false,6017759698398954
 					[
 						0,
 						1
+					]
+				]
+				]
+			]
+			]
+			,[
+			[
+				0,
+				null,
+				false,
+				4572620081427805,
+				[
+				[
+					-1,
+					cr.system_object.prototype.cnds.CompareVar,
+					null,
+					0,
+					false,
+					false,
+					false,
+					1236489129273899
+					,[
+					[
+						11,
+						"DirectionBullet"
+					]
+,					[
+						8,
+						0
+					]
+,					[
+						7,
+						[
+							0,
+							0
+						]
+					]
+					]
+				]
+				],
+				[
+				[
+					5,
+					cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
+					"Bullet",
+					3890597935928739
+					,[
+					[
+						0,
+						[
+							0,
+							0
+						]
+					]
+					]
+				]
+				]
+			]
+,			[
+				0,
+				null,
+				false,
+				8363980654975521,
+				[
+				[
+					-1,
+					cr.system_object.prototype.cnds.CompareVar,
+					null,
+					0,
+					false,
+					false,
+					false,
+					250337794259246
+					,[
+					[
+						11,
+						"DirectionBullet"
+					]
+,					[
+						8,
+						0
+					]
+,					[
+						7,
+						[
+							0,
+							1
+						]
+					]
+					]
+				]
+				],
+				[
+				[
+					5,
+					cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
+					"Bullet",
+					6300066903431424
+					,[
+					[
+						0,
+						[
+							0,
+							180
+						]
+					]
 					]
 				]
 				]
